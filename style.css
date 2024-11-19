@@ -1,0 +1,16 @@
+html,
+body {
+  margin: 10;
+  padding: 20;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px; /* Optional: Adds space between the grid items */
+}
+
+canvas {
+  display: block;
+}
